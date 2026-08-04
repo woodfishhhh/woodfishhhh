@@ -30,7 +30,7 @@ jobs:
           plugin_topics_sort: stars
 
       - name: Coding habits and activity / 编码习惯与活跃时间
-        uses: lowlighter/metrics@latest
+        uses: woodfishhhh/metrics@profile-event-fix
         with:
           filename: assets/metrics/habits.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -47,7 +47,7 @@ jobs:
           plugin_habits_languages_limit: 6
 
       - name: Recent activity / 近期动态
-        uses: lowlighter/metrics@latest
+        uses: woodfishhhh/metrics@profile-event-fix
         with:
           filename: assets/metrics/activity.svg
           token: ${{ secrets.METRICS_TOKEN }}
