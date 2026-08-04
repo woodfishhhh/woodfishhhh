@@ -1,0 +1,62 @@
+name: Metrics
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: profile-metrics
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Starred topics / 技术栈
+        uses: lowlighter/metrics@latest
+        with:
+          filename: assets/metrics/topics.svg
+          token: NOT_NEEDED
+          user: ${{ github.repository_owner }}
+          base: ""
+          plugin_topics: yes
+          plugin_topics_limit: 15
+          plugin_topics_mode: starred
+          plugin_topics_sort: stars
+
+      - name: Coding habits and activity / 编码习惯与活跃时间
+        uses: lowlighter/metrics@latest
+        with:
+          filename: assets/metrics/habits.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: ${{ github.repository_owner }}
+          base: ""
+          config_timezone: Asia/Shanghai
+          plugin_habits: yes
+          plugin_habits_from: 200
+          plugin_habits_days: 14
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+          plugin_habits_charts_type: graph
+          plugin_habits_trim: yes
+          plugin_habits_languages_limit: 6
+
+      - name: Recent activity / 近期动态
+        uses: lowlighter/metrics@latest
+        with:
+          filename: assets/metrics/activity.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: ${{ github.repository_owner }}
+          base: ""
+          config_timezone: Asia/Shanghai
+          plugin_activity: yes
+          plugin_activity_limit: 5
+          plugin_activity_days: 14
+          plugin_activity_visibility: public
+          plugin_activity_timestamps: yes
+          plugin_activity_filter: push, issue, pr, release, review, ref/create
