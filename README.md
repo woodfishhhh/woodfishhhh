@@ -1,9 +1,8 @@
 <div align="center">
 
-<img
-  src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=600&amp;size=28&amp;duration=3000&amp;pause=900&amp;color=2F81F7&amp;center=true&amp;vCenter=true&amp;repeat=true&amp;width=760&amp;height=60&amp;lines=Full+Stack+%26+AI+Agent+Developer;%E5%85%A8%E6%A0%88+%26+AI+Agent+%E5%BC%80%E5%8F%91%E8%80%85"
-  alt="Full Stack & AI Agent Developer / 全栈与 AI Agent 开发者"
-/>
+<h1>Full Stack &amp; AI Agent Developer</h1>
+
+<p><strong>全栈 &amp; AI Agent 开发者</strong></p>
 
 **Woodfish / 木鱼**
 
