@@ -24,24 +24,6 @@ Hi, I'm Woodfish, an undergraduate at Jiangxi University of Finance and Economic
 
 [**woodfish.site · WoodFishNest / 木鱼的鱼窝**](https://woodfish.site)
 
-## 技术栈 / Tech Stack
-
-<picture>
-  <img src="./assets/metrics/topics.svg" alt="技术栈与关注主题 / Tech stack and starred topics" width="100%" />
-</picture>
-
-## 编码习惯与活跃时间 / Coding Habits and Activity
-
-<picture>
-  <img src="./assets/metrics/habits.svg" alt="编码习惯与活跃时间 / Coding habits and activity" width="100%" />
-</picture>
-
-## 近期动态 / Recent Activity
-
-<picture>
-  <img src="./assets/metrics/activity.svg" alt="近期 GitHub 动态 / Recent GitHub activity" width="100%" />
-</picture>
-
 ## 贡献轨迹 / Contribution Trail
 
 <picture>
