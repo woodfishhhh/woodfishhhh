@@ -6,23 +6,17 @@
 
 **Woodfish / 木鱼**
 
-<p>
-  <a href="https://woodfish.site">Personal Website / 个人网页</a>
-  ·
-  <a href="https://github.com/woodfishhhh?tab=repositories">Projects / 项目</a>
-</p>
-
 </div>
 
-## 关于我 / About Me
+# 关于我 / About Me
 
 你好，我是 Woodfish，江西财经大学本科在读。
 
 Hi, I'm Woodfish, an undergraduate at Jiangxi University of Finance and Economics.
 
-### 个人网页 / Personal Website
+## 个人网页 / Personal Website
 
-[**woodfish.site · WoodFishNest / 木鱼的鱼窝**](https://woodfish.site)
+[**woodfish.site · WoodFishNest / 木鱼的鱼窝**](https://blog.woodfish.site)
 
 ## 贡献轨迹 / Contribution Trail
 
